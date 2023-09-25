@@ -1,0 +1,58 @@
+.BacktoAmazon{
+  color: rgb(0,113,133);
+  font-size: 20px;
+  transition: all 0.15s;
+}
+
+.BacktoAmazon:hover{
+  color: rgb(175, 113, 19);
+}
+.cost{
+  color: rgb(0,118,0);
+  font-size: 25px;
+  font-weight: bold;
+}
+.free{
+  font-size: 22px;
+}
+.ADC{
+  background-color: rgb(255,216,20);
+  height: 40px;
+  width: 175px;
+  border: none;
+  border-radius: 20px;
+  font-size: larger;
+  font-weight: bolder;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.ADC:hover{
+  background-color: rgb(204, 175, 33);
+
+}
+
+.ADC:active{
+  opacity: 0.4;
+}
+
+.BN{
+  background-color: rgb(255,164,28);
+  height: 40px;
+  width: 175px;
+  border: none;
+  border-radius: 20px;
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.BN:hover{
+  background-color: rgb(179, 115, 19);
+}
+
+.BN:active{
+  opacity: 0.4;
+}

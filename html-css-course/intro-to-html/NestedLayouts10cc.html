@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nested Layouts Problem 10c</title>
+
+  <style>
+    .videos{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .youtube-thumbnail-div{
+      display: inline-block;
+      width: 200px;
+    }
+    .youtube-thumbnail{
+      width: 200px;
+      border-radius: 4px;
+    }
+    
+    .video-description{
+      display: inline; 
+      margin-left: 5px;
+    }
+    
+    .video-title-div{
+      display: inline-block;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      vertical-align: top;
+      width: 150px;
+    }
+  
+    .video-title{
+      margin-top: 0px;
+      font-size: 12px;
+    
+    }
+ 
+    .video-creator ,
+    .video-stats{
+      margin-bottom: 0px;
+      color: gray ;
+      width: 200px;
+      margin-right: 0px;
+      font-size: 10px;
+      margin-top: 10px;
+    }
+    .video-stats{
+      margin-top: 4px;
+    }
+    
+  </style>
+
+</head>
+<body>
+  <div class="videos">
+    <div class="youtube-thumbnail-div">
+      <img class="youtube-thumbnail" src="Pics/FrozeRyan.webp">
+    </div>
+    <div class="video-description">
+      <div class="video-title-div">
+        <p class="video-title">
+          Solo car Camping in -18 Degrees
+        </p>
+        <p class="video-creator">Ryan Trahan</p>
+        <p class="video-stats">10K views &#183; 7 minutes ago </p> 
+      </div>
+    </div>
+  </div>
+
+  <div class="videos">
+    <div class="youtube-thumbnail-div">
+      <img class="youtube-thumbnail" src="Pics/JavascriptFullCourseSSD.webp">
+    </div>
+    <div class="video-description">
+      <div class="video-title-div">
+        <p class="video-title">
+          JavaScript Full Course (2023) - Beginner to Pro - Part 1 
+        </p>
+        <p class="video-creator">SuperSimpleDev</p>
+        <p class="video-stats">7K views &#183; 9 hours ago </p> 
+      </div>
+    </div>
+  </div>
+
+  <div class="videos">
+    <div class="youtube-thumbnail-div">
+      <img class="youtube-thumbnail" src="Pics/LinusTechTipsVideo.webp">
+    </div>
+    <div class="video-description">
+      <div class="video-title-div">
+        <p class="video-title">
+          This is a computer - XDO.AI PicoPC
+        </p>
+        <p class="video-creator">Linus Tech Tips</p>
+        <p class="video-stats">2.7M views &#183; 2 months ago </p> 
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

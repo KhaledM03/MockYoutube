@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Div Element</title>
+  <style>
+    .div-box{
+      background-color: tomato;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    .div-circle{
+      background-color: yellowgreen;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      display: inline-block;
+      margin-right: 25px;
+    }
+
+    .div-Satisfied{
+      width: 300px;
+      height: 80px;
+      border: 2px rgb(173, 172, 172) solid;
+      padding: 15px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .div-youtube{
+
+      background-color: black;
+      width: 400px;
+      height: 120px;
+      padding-top: 15px;
+      padding-left: 15px;
+      font-family: Arial;
+      font-weight: bold;
+      margin-top: 10px;      
+    }
+
+    .youtube-head{
+      color: white;
+      font-size: 25px;
+      margin-bottom: 5px;
+      margin-top: 10px;
+    }
+
+    .youtube-text{
+      color: gray;
+    }
+    
+    .bobbypfp{
+      width: 60px;
+      border-radius: 30px;
+      
+      vertical-align: middle;
+    }
+
+    .twitter{
+     
+      vertical-align: middle;
+      width: 300px;
+      height: 50px;
+      font-size: 20px;
+      margin-left: 10px;
+      border: none;
+    }
+
+    .twitter-button{
+      
+      vertical-align: middle;
+      background-color: rgb(0, 153, 255);
+      color: white;
+      border: none;
+      height: 40px;
+      width: 90px;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 25px;
+    }
+    .twitter:focus{
+      outline: none;
+    }
+
+    .div-twitter{
+      box-shadow: 0 0.1px 5px rgba(0, 0, 0, 0.10);
+      margin-top: 50px;
+    padding-top: 10px;
+      width: 500px;
+      height: 70px;
+      padding-left: 10px;
+    }
+    .add-friends{
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
+    }
+    .Bobby-friend{
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      
+    }
+    .friend-box{
+      margin-top: 30px;
+      border-radius: 5px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.30);
+      width: 200px;
+      height: 320px;
+    }
+    .friend-name{
+      margin-top: 6px;
+      font-family: arial;
+      font-weight: Bold;
+      padding-left: 10px;
+      font-size: 20px;
+      margin-bottom: 0px;
+      
+    }
+    .friend-mutuals{
+      font-family: Arial;
+      font-size: 15px;
+      padding-left: 10px;
+      margin-top: 6px;
+      font-weight: bold;
+      color: rgb(112, 112, 112);
+    }
+
+    .friend-button{
+      background-color: rgb(60, 114, 214);
+      color: white;
+      font-size: 15px;
+      font-family: arial;
+      border: none;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-right: 20px;
+      padding-left: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>  
+<body>
+  <div class="div-box">
+  </div>
+  <div class="div-circle">
+  </div>
+
+  <div class="div-Satisfied">
+    <p>
+      Satisfied with our service? 
+    </p>
+
+    <button>
+      yes
+    </button>
+    <button>
+      No
+    </button>
+  </div>
+
+  <div class="div-youtube">
+    <p class="youtube-head">
+      Install YouTube Music
+    </p>
+
+    <p class="youtube-text">
+      Add YouTube Music to your desktop for quick and easy access
+    </p>
+  </div>
+
+  <div class="div-twitter">
+    <img class="bobbypfp" src="Pics/BobMarley.jpg">
+    <input class="twitter" type="text" placeholder="What's happening?">
+    <button class="twitter-button">Tweet</button>
+  </div>
+
+<div  class="add-friends">
+  <div class="friend-box"> 
+    
+    <img class="Bobby-friend" src="Pics/BobMarley.jpg">
+      <p class="friend-name">Bobby</p>
+      <p class="friend-mutuals">5 mutual friends</p>
+      <button class="friend-button">Add Friend</button>
+      
+</div>
+<div class="friend-box"> 
+    
+  <img class="Bobby-friend" src="Pics/Skeng.webp">
+    <p class="friend-name">Skeng</p>
+    <p class="friend-mutuals">3 mutual friends</p>
+    <button class="friend-button">Add Friend</button>
+    
+</div>
+<div class="friend-box"> 
+    
+  <img class="Bobby-friend" src="Pics/OliverTree.jpg">
+    <p class="friend-name">Oliver</p>
+    <p class="friend-mutuals">1 mutual friends</p>
+    <button class="friend-button">Add Friend</button>
+    
+</div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+.notifs{  
+    border-style: solid;
+    margin-top: 20px;
+    border-color: gray;
+    border-radius: 5px;
+    border-width: 1.2px;
+}
+
+.notifs-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notifs-num{
+    background-color: rgb(49, 110, 194);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    border-radius: 15px;
+}
+
+.add-friend{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pfp{
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.friend-info{
+    height: 56px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+
+
+}
+
+.name{
+  font-size: 15px;
+  font-weight: 700;  
+}
+
+.disc{
+    color: gray;
+    font-size: 12px;
+}
+.why{
+    color: gray;
+    font-size: 10px;
+}
+.bttn-follow{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.follow{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgb(94, 158, 222);
+    color: white;
+    border-radius: 4px;
+}
+
+.dwnld-page{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgb(139, 65, 168);
+    height: 40px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home{
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    width: 100px;
+    padding-left: 10px;
+}
+
+.search{
+    flex: 1;
+    display: flex;
+}
+
+.search-bar{
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 8px;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.download-div{
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.download{
+    background-color: rgb(139, 65, 168);
+    color: white;
+    border-color: white;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+}

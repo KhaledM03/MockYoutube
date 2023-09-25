@@ -1,0 +1,67 @@
+.button{
+  padding-top: 6px ;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+.num{
+ padding: 3px;
+ cursor: pointer;
+}
+
+.stretch-button{
+  margin-top: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+  transition: all 0.5s;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.stretch-button:hover{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.threed{
+  margin-top: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.threed:active{
+  margin-top: 8px;
+  margin-left: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
+}
+
+.num2{
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.num2:hover{
+  padding-left: 15px;
+  padding-right: 15px;
+}

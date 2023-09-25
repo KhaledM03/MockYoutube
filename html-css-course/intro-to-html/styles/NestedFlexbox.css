@@ -1,0 +1,180 @@
+.one-box{
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.one-left-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: lightpink;
+}
+
+.item-1{
+  width: fit-content; 
+  align-items: center;
+  background-color: black;
+  color: white;
+
+}
+
+.one-right-box{
+  width: 200px;
+  background-color: lightblue ;
+  
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-2{
+background-color: black;
+color: white;
+}
+
+.Gmail-mail{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  border-radius: 4px;
+}
+
+.mail-header{
+  font-size: 13px;
+  color: grey;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-bottom:8px ;
+
+}
+.gmail-mail-middle{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.gmail-img{
+  width: 40px;
+  height: 40px;
+  border-radius:25px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.gmail-body-container{
+  width: 300px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right:15px ;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+
+.gmail-top-line{
+  justify-content: space-between;
+  display: flex;
+  flex: 1fr;
+  flex-direction: row;
+}
+.chewy-promotions{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.time{
+  display: block;
+  color: grey;
+  font-size: 12px;
+}
+
+.gmail-info{
+  display: block;
+  flex-direction: column;
+}
+
+.big-sale{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.gmail-content{
+  font-size: 14px;
+  color: grey;
+}
+.f-container{
+  display: flex;
+  padding-top: 20px;
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.f-left-img-container{
+  display: flex;
+}
+.f-left-img{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.f-top-header{
+  display: flex;
+  padding-bottom: 5px;
+}
+.f-username{
+  font-weight: 700;
+  padding-right: 5px;
+}
+.f-username-at{
+  color: gray;
+}
+.f-right{
+  padding-left: 10px;
+  display: block;
+}
+
+.f-bottom{
+
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(230 , 230, 230);
+  border-width: 2px;
+  width: 350px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.f-bottom-left{
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 150px;
+  height: 80px;
+  background-color: rgb(230, 230, 230);
+}
+
+.f-bottom-right{
+  padding-left: 15px;
+}
+
+.f-site{
+  color: rgb(117, 117, 117);
+}
+
+.f-site-content{
+  color: black;
+  padding-top: 5px;
+}

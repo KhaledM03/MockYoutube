@@ -1,0 +1,25 @@
+p{
+  font-family: Arial;
+  margin-top: 0px;
+}
+.Stock-cost{
+font-size: 55px;
+margin-bottom: 7px;
+}
+.currency{
+font-size: 30px;
+color: gray;
+}
+.Stock-Rise{
+font-size: 25px;
+color: green;
+margin-bottom: 7px
+}
+.Stock-AfterHours{
+color: gray;
+font-size: 25px;
+}
+
+.dip{
+color: rgb(199, 0, 0);
+}

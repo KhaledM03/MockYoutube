@@ -1,0 +1,26 @@
+p{
+  font-family: arial;
+  margin-top: 0px;
+  font-size: 20px;
+  width: 600px;
+}
+
+.camp-name{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.camp-at{
+  color: gray;
+  font-weight: 400;
+}
+
+.camp-at2{
+  color: rgb(81, 144, 238);
+}
+
+.camp-at2:hover{
+  color: rgb(57, 102, 170);
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+p{
+  font-family: Arial;
+  margin-top: 0px;
+  text-align: center;
+}
+.apple-new{
+  color: rgb(224, 149, 50);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+.apple-macbook{
+  font-weight: bold;
+  font-size: 33px;
+  margin-bottom: 0px;
+}
+
+.apple-pros{
+  font-weight: bold;
+  font-size: 57px;
+  margin-bottom: 15px;
+}
+.apple-cost{
+  font-size: 20px;
+}
+.apple-buy{
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(71, 138, 224);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  transition: all .15s;
+  cursor: pointer;
+} 
+
+.pple-buy:hover{
+  background-color: rgb(58, 113, 185);
+}
